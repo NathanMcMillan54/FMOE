@@ -37,8 +37,12 @@ sh setup.sh
 ./main
 ```
 
+Running ```./main``` will run FMOE, that is what you will need to run when you want to use FMOE.
+
 FOMOSv2-CL
 ```shell script
 sh setup.sh
 strt FMOE
 ```
+
+Running ```strt FMOE``` will run FMOE, that is what you will need to run when you want to use FMOE.
