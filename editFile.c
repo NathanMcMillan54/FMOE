@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    printf("edit file \n");
+    printf("you are editing a file \n");
     return 0;
 }

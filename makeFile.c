@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
-    printf("make file \n");
+    printf("\nYou are in: \n");
+    system("pwd");
     return 0;
 }

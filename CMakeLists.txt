@@ -3,4 +3,4 @@ project(FMOE C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(FMOE main.c makeFile.c editFile.c)
+add_executable(FMOE main.c openFile.c makeFile.c editFile.c help.c headerFiles/openFile.h)
