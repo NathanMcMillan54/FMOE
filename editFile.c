@@ -2,8 +2,9 @@
 
 int main() {
     FILE *fileName;
-    char IFileName[50];
+    char IFileName[14] = "editFile.txt";
     char I2File[9999];
+    char space[2] = "\n";
 
     printf("Add to file: ");
     scanf("%[^\n]", I2File);
@@ -12,9 +13,10 @@ int main() {
     scanf("%s", IFileName);
 
 
-    if ( (fileName = fopen(IFileName, "r") ) == NULL)
+    if ( (fileName = fopen(IFileName, "a") ) == NULL)
         printf("Cannot open file.");
     else {
+        fputs(space, fileName);
         fputs(I2File, fileName);
         fclose(fileName);
     }
