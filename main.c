@@ -32,7 +32,7 @@ int aQ() {
         system("./openFile");
         exit(0);
     } else if (!strcpy(MoE, "help")) {
-        printf("test");
+        // printf("test");
         system("./help");
         exit(0);
     }
