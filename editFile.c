@@ -1,20 +1,23 @@
 #include <stdio.h>
 
 int main() {
-    FILE *note;
-    char I2File[50];
+    FILE *fileName;
+    char IFileName[50];
+    char I2File[9999];
 
-    printf("");
+    printf("Add to file: ");
     scanf("%[^\n]", I2File);
 
+    printf("Enter file name: ");
+    scanf("%s", IFileName);
 
-    if ( (note = fopen("test.txt","a") ) == NULL)
-        printf("Cannot open note file.");
+
+    if ( (fileName = fopen(IFileName, "r") ) == NULL)
+        printf("Cannot open file.");
     else {
-        fputs(I2File, note);
-        fclose(note);
+        fputs(I2File, fileName);
+        fclose(fileName);
     }
-    printf("\n");
 
     return 0;
 }
