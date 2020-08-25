@@ -26,7 +26,7 @@ int help() {
 int aQ() {
 
     char MOE[50];
-    printf("Enter M, O, or E\n");
+    printf("\nEnter M, O, or E\n");
     printf("");
     scanf("%s", MOE);
     if(!strcmp(MOE, "help")) {

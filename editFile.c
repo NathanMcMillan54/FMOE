@@ -1,11 +1,20 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main() {
-    char editFile[1000];
+    FILE *note;
+    char I2File[50];
 
-    printf("You are editing a file \n");
-    scanf("%s", editFile);
+    printf("");
+    scanf("%[^\n]", I2File);
 
-    exit(0);
+
+    if ( (note = fopen("test.txt","a") ) == NULL)
+        printf("Cannot open note file.");
+    else {
+        fputs(I2File, note);
+        fclose(note);
+    }
+    printf("\n");
+
+    return 0;
 }
