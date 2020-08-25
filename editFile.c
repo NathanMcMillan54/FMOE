@@ -7,6 +7,5 @@ int main() {
     printf("You are editing a file \n");
     scanf("%s", editFile);
 
-    system("./main");
-    return 0;
+    exit(0);
 }

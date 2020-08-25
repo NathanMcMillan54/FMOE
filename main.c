@@ -13,32 +13,35 @@ int editAFile() {
     return 0;
 }
 
+int openAFile() {
+    system("./openFile");
+    return 0;
+}
+
+int help() {
+    system("./help");
+    return 0;
+}
+
 int aQ() {
-    char MoE[5];
 
-    printf("Type: M to make a file, or E to edit a file, O to open a file \n");
-    scanf("%s", MoE);
-
-    if(!strcmp(MoE, "M")) {
-        printf("\nMaking file\n");
+    char MOE[50];
+    printf("Enter M, O, or E\n");
+    printf("");
+    scanf("%s", MOE);
+    if(!strcmp(MOE, "help")) {
+        help();
+    } else if (!strcmp(MOE, "O")) {
+        openAFile();
+    } else if (!strcmp(MOE, "M")) {
         makeAFile();
-        exit(0);
-    } else if (!strcmp(MoE, "E")) {
-        printf("\nEditing file\n");
+    } else if (!strcmp(MOE, "E")) {
         editAFile();
-        exit(0);
-    } else if (!strcpy(MoE, "O")) {
-        printf("\n Openning file\n");
-        system("./openFile");
-        exit(0);
-    } else if (!strcpy(MoE, "help")) {
-        // printf("test");
-        system("./help");
-        exit(0);
     }
     else {
-        printf("Enter M, E, or O \n");
+        printf("Enter M, O, or E \n");
     }
+
     return 0;
 }
 

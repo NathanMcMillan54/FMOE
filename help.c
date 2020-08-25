@@ -7,5 +7,5 @@ int main() {
     printf("If you type E it will let you choose a file name and it will open it and you will be able to edit it. \n");
     printf("If you type O it will let you choose a file name and it will open it so you can read it. \n");
     system("./main");
-    return 0;
+    exit(0);
 }
