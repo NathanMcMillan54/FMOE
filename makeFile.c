@@ -4,5 +4,6 @@
 int main() {
     printf("\nYou are in: \n");
     system("pwd");
+    system("./main");
     return 0;
 }

@@ -1,10 +1,16 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "headerFiles/openFile.h"
 
 int main() {
     FILE *fp;
     char str[MAXCHAR];
-    char* fileName = "test.txt";
+    char fileName[50];
+
+    printf("You are in: \n");
+    system("pwd");
+    printf("\nWhat file would you like to open?\n");
+    scanf("%s", fileName);
 
     fp = fopen(fileName, "r");
     if (fp == NULL){

@@ -9,7 +9,9 @@ Or
 
 Edit file
 
-This is a text editor for FOMOSv1-Yellow and FOMOSv2-CL it will only work on Linux based operating systems like FOMOSv2-CL.
+##
+
+This is a text editor for FOMOSv1-Yellow v1.4 and FOMOSv2-CL it will only work on Linux based operating systems like FOMOSv2-CL.
 
 # Install
 
@@ -46,3 +48,9 @@ strt FMOE
 ```
 
 Running ```strt FMOE``` will run FMOE, that is what you will need to run when you want to use FMOE.
+
+# For developers
+
+Don't run setup.sh it's only for the users.
+
+Before you push your code run delteCompiledFiles.sh it will delete all the compiled files at once so you don't have to delete them manually.
