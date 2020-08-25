@@ -2,7 +2,7 @@
 
 echo "Deleting files"
 echo "  "
-rm -rf main
+rm -rf FMOE
 rm -rf makeFile
 rm -rf editFile
 rm -rf openFile

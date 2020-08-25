@@ -37,6 +37,8 @@ int aQ() {
         makeAFile();
     } else if (!strcmp(MOE, "E")) {
         editAFile();
+    } else if (!strcmp(MOE, "exit")) {
+        exit(0);
     }
     else {
         printf("Enter M, O, or E \n");
@@ -55,5 +57,4 @@ int main() {
         aQ();
     }
 
-    exit(0);
 }

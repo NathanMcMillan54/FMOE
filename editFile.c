@@ -1,10 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
     FILE *fileName;
     char IFileName[14] = "editFile.txt";
     char I2File[9999];
     char space[2] = "\n";
+
+    printf("\nYou are in: \n");
+    system("pwd");
 
     printf("Add to file: ");
     scanf("%[^\n]", I2File);

@@ -36,10 +36,10 @@ On FOMOSv2-CL you need to use the ```INSTALL``` command whcih will be added to F
 Linux
 ```shell script
 sh setup.sh
-./main
+./FMOE
 ```
 
-Running ```./main``` will run FMOE, that is what you will need to run when you want to use FMOE.
+Running ```./FMOE``` will run FMOE, that is what you will need to run when you want to use FMOE.
 
 FOMOSv2-CL
 ```shell script
