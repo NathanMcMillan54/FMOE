@@ -11,7 +11,7 @@ Edit file
 
 ##
 
-This is a text editor for FOMOSv1-Yellow v1.4 and FOMOSv2-CL it will only work on Linux based operating systems like FOMOSv2-CL.
+This is a text editor for FOMOSv1-Yellow v1.4.1 and FOMOSv2-CL v2, it will only work on Linux based operating systems like FOMOSv2-CL.
 
 # Install
 
@@ -24,7 +24,7 @@ git clone https://github.com/NathanMcMillan54/FMOE.git
 On Linux it's just a simple git clone.
 
 #
-FOMOSv2-CL
+FOMOSv2-CL v2.1.1-beta
 ```shell script
 INSTALL https://github.com/NathanMcMillan54/FMOE.git
 ```
@@ -41,7 +41,7 @@ sh setup.sh
 
 Running ```./FMOE``` will run FMOE, that is what you will need to run when you want to use FMOE.
 
-FOMOSv2-CL
+FOMOSv2-CL v2.1.1-beta
 ```shell script
 sh setup.sh
 strt FMOE
