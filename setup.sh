@@ -2,6 +2,7 @@
 
 echo "Removing .git"
 rm -rf .git
+rm -rf .gitignore
 
 echo "Compiling files..."
 gcc -Wall FMOE.c -o FMOE
